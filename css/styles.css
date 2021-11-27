@@ -1,18 +1,17 @@
 body {
+  background-color: #f8f9fa;
+  color: #090910;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-}
 
-a {
-  color: #11999E;
 }
 
 hr{
   border: dotted #DDDDDD 6px;
   border-bottom: none;
   width: 5%;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 h1 {
   color: #66BFBF;
@@ -29,6 +28,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -38,6 +38,16 @@ h3 {
 
 p{
   line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.para{
+  width: 35%;
+  margin: 40px auto 60px;
 }
 .ankit {
   height: 200px;
@@ -57,21 +67,17 @@ p{
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0;
+  padding: 50px 0 20PX;
 
 }
 
 .cloud-1 {
-  /*  margin: 60px auto auto 500px; */
   position: absolute;
   right: 350px;
   top: 50px;
 }
 
 .cloud-2 {
-  /* position: absolute;
-  height: 65px;
-  width: 200px; */
   position: absolute;
   left: 350px;
   bottom: 300px;
@@ -98,11 +104,13 @@ p{
 
 .footer-link{
   margin: 20px;
+  color: #11999E;
+  text-decoration: none;
 }
 
 .copyright{
   color: #EAF6F6;
-  font-size: 15px;
+  font-size: 0.75rem;
 }
 
 .contact-me{
@@ -126,7 +134,7 @@ p{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 50px;
+  margin: 60px auto;
 }
 
 .btn:hover {
@@ -140,5 +148,5 @@ p{
 }
 
 .footer-link:hover{
-  background-color: #F7F7F7;
+  color: #F7F7F7;
 }
